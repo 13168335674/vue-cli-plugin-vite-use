@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "vite": "node ./bin/vite",
+    "vite:build": "BUILD=true MODERN=true yarn vite"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -30,6 +32,7 @@
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vite": "^1.0.0-rc.3",
     "vue-template-compiler": "^2.6.11"
   }
 }
